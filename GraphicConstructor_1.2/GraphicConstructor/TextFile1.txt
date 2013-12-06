@@ -1,0 +1,11 @@
+﻿list<int> a;
+a = new list<int>();
+a.Add(1);
+
+list<obj> b;
+b = new list<obj>();
+b.Add(new obj());
+
+list<list<int>> c;
+c = new list<list<int>>();
+c.Add(new list<int>());
